@@ -1,0 +1,11 @@
+.products-table {
+  width: 100%;
+}
+
+.products-table th {
+  background-color: #dedee5;
+}
+
+.products-table .odd {
+  background-color: #efeff2;
+}

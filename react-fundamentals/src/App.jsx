@@ -9,6 +9,8 @@ import RandomNumber from './components/basics/RandomNumber'
 import Card from './components/layout/Card'
 import Family from './components/basics/Family'
 import FamilyMember from './components/basics/FamilyMember'
+import StudentsList from './components/repetitions/StudentsList';
+import ProductsTable from './components/repetitions/ProductsTable';
 
 export default () => (
   <div>
@@ -38,6 +40,12 @@ export default () => (
           <FamilyMember nome="Marianne"/>
           <FamilyMember nome="Maju"/>
         </Family>
+      </Card>
+      <Card titulo="6. Students List" color="#56b5b5">
+        <StudentsList/>
+      </Card>
+      <Card titulo="7. Products Table" color="#cbce1e">
+        <ProductsTable/>
       </Card>
     </div>
   </div>
